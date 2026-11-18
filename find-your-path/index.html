@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Path | BiGAUSTIN</title>
+    <meta name="description" content="We foster small Business opportunities, facilitate Investment, and promote economic and community Growth through entrepreneur resources, microloans, workforce development education, and affordable housing support." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="https://images.squarespace-cdn.com/content/v1/67229609a2629e03152ed657/9ad8ed3a-13a2-424e-80a2-c92537e54c4f/favicon.ico?format=100w" />
+  </head>
+  <body>
+    <div id="layout-root">
+      <main>
+
+        
+        <section class="page-hero">
+          <h1>Find Your Path with BiGAUSTIN</h1>
+          <p>Answer a few questions to find a starting point for business education, consulting, or lending.</p>
+        </section>
+        <section class="py-16 md:py-20">
+          <div class="container-site max-w-2xl">
+            <p class="reveal mb-8 text-center text-sm text-muted">This guide does not collect your answers or determine loan eligibility.</p>
+            <div id="pathQuiz" class="reveal space-y-6 rounded-2xl border border-neutral-200 p-8">
+              <div data-step>
+                <h3 class="mb-4 text-xl text-brand">What do you need most right now?</h3>
+                <div class="grid gap-3">
+                  <button data-q="need" data-answer="learn" class="btn btn-outline justify-start">I want to learn / take a class</button>
+                  <button data-q="need" data-answer="fund" class="btn btn-outline justify-start">I need funding / a loan</button>
+                  <button data-q="need" data-answer="coach" class="btn btn-outline justify-start">I want 1:1 consulting</button>
+                  <button data-q="need" data-answer="start" class="btn btn-outline justify-start">I’m starting from scratch</button>
+                </div>
+              </div>
+              <div data-step class="hidden">
+                <h3 class="mb-4 text-xl text-brand">Where are you in your journey?</h3>
+                <div class="grid gap-3">
+                  <button data-q="stage" data-answer="idea" class="btn btn-outline justify-start">Just an idea</button>
+                  <button data-q="stage" data-answer="early" class="btn btn-outline justify-start">Already selling / early stage</button>
+                  <button data-q="stage" data-answer="grow" class="btn btn-outline justify-start">Ready to grow</button>
+                </div>
+              </div>
+              <div data-step class="hidden">
+                <h3 class="mb-4 text-xl text-brand">Preferred next step?</h3>
+                <div class="grid gap-3">
+                  <button data-q="next" data-answer="now" class="btn btn-outline justify-start">Show me my best fit</button>
+                  <button data-q="next" data-answer="talk" class="btn btn-outline justify-start">I’d rather talk to someone</button>
+                </div>
+              </div>
+            </div>
+            <div id="pathResult" class="reveal mt-8 hidden rounded-2xl bg-fog p-8 text-center"></div>
+          </div>
+        </section>
+        
+        <section class="bg-black py-14 text-white">
+          <div class="container-site flex flex-wrap items-center justify-between gap-6">
+            <div>
+              <h2 class="mb-1 text-3xl text-white md:text-4xl">Ready?</h2>
+              <p class="text-white/90">Let’s take the next step together.</p>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="/schedule/" class="btn btn-primary">Schedule an Appointment</a>
+              <a href="/education/" class="btn btn-primary">Explore Classes</a>
+              <a href="/lending/" class="btn btn-primary">Apply for Funding</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>
