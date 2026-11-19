@@ -172,7 +172,6 @@ function footerHTML() {
       </div>
       <div>
         <h4>Our Office</h4>
-        <p><a href="https://maps.google.com/?q=8000+Centre+Park+Dr,+Suite+200,+Austin,+TX+78754" target="_blank" rel="noopener">8000 Centre Park Dr., Suite 200<br />Austin, TX 78754<br />United States</a></p>
         <div class="socials">
           <a href="https://www.facebook.com/BiGAUSTINTX/" target="_blank" rel="noopener">Facebook</a>
           <a href="https://www.youtube.com/@BigaustinOrg" target="_blank" rel="noopener">YouTube</a>
